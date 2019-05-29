@@ -1,0 +1,27 @@
+
+/* .blue {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+} 
+.red {
+  float: right;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+  /*display: inline-block;
+  width: 100%;*/
+  /*
+}
+ 
+.green:after {
+  content: "";
+  display: table;
+  clear: both;
+
+} */

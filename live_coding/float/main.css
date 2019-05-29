@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  /* height: 700px; */
+}
+
+header{
+  height: 200px;
+  width: 100%;
+  background-color: red;
+}
+
+.containerint {
+  width: 100%;
+  /* height: 600px; */
+  background-color: gray;
+  /* display: inline-block; */
+  /* border:solid 1px #000; */
+}
+
+.containerint:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+aside, section {
+  float: left;
+  /* display: inline-block; */
+  height: 500px;
+  box-sizing: border-box;
+}
+
+aside {
+  width: 30%;
+  background-color: yellow;
+}
+
+section {
+  width: 70%;
+  background-color: green;
+}
+
+footer {
+  height: 150px;
+  background-color: aqua;
+}
+
+
+
+/* .blue {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+} 
+.red {
+  float: right;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+  /*display: inline-block;
+  width: 100%;*/
+  /*
+}
+ 
+.green:after {
+  content: "";
+  display: table;
+  clear: both;
+
+} */

@@ -1,0 +1,33 @@
+/* Togliamo a tutti gli elementi margin, padding e settiamo box-sizing to border box. D'ora in poi potremo usare di default queste regole */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Vado a colorare di rosso solo l'h1 con classe highlight title */
+h1.title {
+    color: red;
+}
+
+/* Tolgo il bordo dell'input con type submit */
+input[type="submit"] {
+    border: 0;
+}
+
+/* Coloro di rosso solo il p dentro un div */
+div p {
+    color: red;
+}
+
+/* Coloro di blue gli strong dentro i div */
+div > strong {
+    color: blue;
+}
+
+/* Quando vado con il mouse diventa rosso */
+a:hover,
+a:active,
+a:focus {
+    color: red;
+}

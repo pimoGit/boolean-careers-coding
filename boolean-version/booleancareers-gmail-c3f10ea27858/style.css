@@ -1,0 +1,75 @@
+body {
+  width: 50%;
+  margin-left: 25%;
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+
+#logo {
+    height: 100px;
+}
+
+#top-rule{
+  margin-top: 0;
+}
+
+#logo-text{
+  color: white;
+  font-size: 25px;
+}
+
+
+.no-margin{
+  margin: 0;
+}
+
+.email-row {
+  border: 1px solid black;
+  padding: 2px;
+}
+
+.email-row.read {
+  background-color: lightgrey;
+}
+
+.email-row.unread {
+  background-color: white;
+}
+
+.email-text {
+  color: grey;
+}
+
+.email-text:before {
+  content:" - ";
+}
+
+.email-text:after {
+  content:"...";
+}
+
+.star:after {
+  content: "\02605";
+}
+
+footer{
+  color:white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+footer span{
+  font-style: italic;
+  font-size: 15px;
+}
+
+#count{
+  color: white;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+#unread-count{
+  background: orange;
+  border-radius: 50%;
+}
