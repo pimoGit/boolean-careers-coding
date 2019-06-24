@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexy {
+    height: 100vh;
+    background: gray;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* flex-wrap: wrap-reverse; */
+    
+}
+
+.int {
+    height: 50px;
+    background: red;
+    border: solid 1px #000;
+    flex-basis: 200px;
+   flex-shrink: 0;
+}
+
+.int.uno {
+    flex-grow: 1;
+    /* flex-shrink: 0; */
+   order: 2;
+}
+.int.due {
+    flex-grow: 2;
+    order: 1;
+    
+}
+.int.tre {
+    /* flex-shrink: 2; */
+    order: 0;
+}
